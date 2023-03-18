@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+     padding: 0;
+
+ }
+ body{
+    background: #1f1f1f;    
+ }
+ 
+/*Header Start */
+ header{
+    height:20px;
+    padding : 20px;
+     display: flex;
+     justify-content: space-around;
+     flex-flow: row wrap; 
+ }
+ .search input[type=text] {
+     
+     
+     background-color: #262626;
+
+     width: 550px;
+     height: 20px;
+     display: flex;
+     padding: 0px;
+     padding-left: 14px;
+    /* margin: 33px  ;*/
+     
+   }
+   header>.flex-box{
+     display: flex;
+    /* border: 2px solid green;*/
+     color: white;
+     /* gap: 255px; */
+     /*padding: 15px 32px;*/
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     /* align-items: end; */
+     cursor: pointer;
+     align-self: self-end;
+    
+   }
+   header>.flex-box>.btn{
+     font-size: 15px;
+     color:white;
+     padding: 5px;
+     background-color: #262626;
+     border: none;
+     border-radius: 5px;
+     width: 80px;
+    
+ }
+/*Header END */
+
+/*Main Start*/
+ /* ABOUT STATS HERE*/
+ .about{
+    width:50%;
+    margin:2px;
+    padding-top: 15px;
+    padding-left: 25px;
+    height: 400px;
+    color: #262626;
+    border : 2px solid #262626;
+    border-radius: 50px;
+    margin: auto;
+    box-shadow: .5px .5px #262626;
+   
+    
+ }
+ section>h1{
+    /*background: red;*/
+    display: inline;
+ }
+ .img{
+    position: relative;
+    left:20px;
+    top:5px;
+    width:70px;
+    gap:10px;
+    margin: 15px;
+    padding: 2px;
+    display: inline;
+ }
+ .para{
+    display: inline  ;
+    color: #C4C4C4;
+    position: relative;
+    font-size: 25px;
+    top:-40px;
+    left:25px;
+   
+ }
+ .clock{
+    width: 110px;
+    position: relative;
+    left: 170px;
+    color: #262626;   
+}
+/*Know Button of About*/
+.know{
+    color: solid black;
+    font-size: 15px;
+    background-color: yellow;
+    border: 20px solid yellow  ;
+    border-radius: 25px;
+    position:relative;
+    left: 220px;
+    top: -50px;
+}
+/*About Us End*/
+/* OUR Categories Start */
+.our-categories
+{
+    box-sizing: border-box;
+    margin: 2rem;
+    padding: 1rem;
+   /*  box-shadow: 0px 0px 10px 0px; */
+   border : 0px solid #262626;
+   
+    width: 97%;
+}
+
+.our-categories>h1 {
+    text-align: center;
+    font-size: 30px;
+    padding:0px 0px 500px 200px ;
+  }
+  
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+  }
+  
+  .container {
+    border: 2px solid #262626;
+    border-radius: 10px;
+    padding:5px;
+    width: 200px;
+    margin: 2rem 6rem 3rem 4rem;
+    text-align: left;  
+    position: relative;
+    
+  }
+  .description{
+    padding: 10px;
+  }
+  
+.container>.btn
+{
+    width: 80px;
+    height: 30px;
+    padding: 5px; 
+    font-size: 10px ;
+    position: relative;
+    left: 120px;
+    background-color: yellow;
+    background: yellow;
+    color: black;
+    border-radius: 20px;
+}
+/* OUR Categories End */
+/*Main END*/
+.footer{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 40px 0px; 
+    background-color: #262626;
+    border-style: solid;
+    border-color:#262626;
+     border-width: thin;
+     border-radius: 20px;
+     width: 97%;
+    margin: 2rem; 
+    color: white;
+    
+}
+
+.row{
+    display: flex;
+    
+}  
+ul{
+    list-style: none;
+}
+ul li{
+    margin-bottom: 12px;
+   
+}
+.row{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-col h2{
+       font-size: 30px;
+}
+.footer1{
+    width: 20%;
+    
+}
+.footer-col{
+    width: 200px;
+}
+ul li a{
+    
+    color: white;
+    text-decoration: none;
+}
